@@ -1,0 +1,90 @@
+Elõszó:
+	- Jegyzetes, magyarázó, tömör forma
+	- A Windowson érvényes eclipse ee neon fontosabb beállításai/billentyûparancsai
+	
+Általános:
+	- Window -> Preferences -> General -> Keys 	(Billentyûparancsok beállítása)
+	- ctrl + shift + l			Összes aktív billentyûparancs megmutatása
+	- ctrl + m					Adott view teljes ablakban mutatása/vissza kicsinyítése
+	- ctrl + F10				Pull down menu (a break pont sáv jobb gomb menüje)
+	- ctrl + 3					Quick Access (eclipse beállítások, nyitott fájlok, stb. gyors elérése)
+	- ctrl + F8					Perspektíva váltás
+	
+Project explorer:
+	- shift + alt + n			Új file létrehozása menü (mûködik a kódolási felületrõl is)
+		- gyors használat pl:
+			- shift + alt + n; c => új class
+	
+	- ctrl + n					Select new wizard
+		- gyors használat pl:
+			- ctrl + n; c;	enter => új class
+			- ctrl + n; pa; enter => új package
+		- összehasonlítva a shift + alt + n	kombóval: 
+			itt az összes lehetséges eclipse sablon kiválasztható,
+			de csak a project explorerbõl aktiválható
+			lassabb a használata az általános típusokra (mint a class, package stb.)
+	
+	- alt + shift + w			Show in menü megnyitása
+		- System eXplorer megnyitja az adott mappát a windows explorerben
+		- gyors használat: alt + shift + w; x
+	
+	- F2							Rename refactoring
+	- alt + shift + r				Rename refactoring (ez mûködik a code nézetben is)
+
+Forrás view:
+	- ctrl + 1						Baloldali tipp (lightbulb) megjelenítése
+	- ctrl + w	(=ctrl + F4)		Jelenlegi file tab becsukása 
+	- ctrl + shift + o				Organize imports (remove unused imports...)
+	- F2							Show doc (megmutatja a kurzor által jelölt típus dokumentációját)
+	- ctrl + -/+					Adott kódblokk becsukása/megnyitása
+	
+	Navigálás:
+		- alt + n					Navigate fõmenü
+		- ctrl + shift + t			Típus keresése/megnyitása (Open Type)
+		- ctrl + shift + r			Fájl keresése/megnyitása (Open Resource)
+		
+		- ctrl + shift + le/fel		Forrásfájlban: következõ/elõzõ tagváltozóra/metódusra/típusra ugrás
+		
+		- F3						Jump to declaration (Arra a típus meghatározására ugrik, amelyiken a kurzor áll)
+		- ctrl + F3					Ugrás az adott fájlon belül egy keresett elemre
+		- ctrl + shift + g			Find references. (Adott típus felhasználóinak megjelenítése)
+		- ctrl + t					Típushierarchia mutatása felugróként
+		- F4						Típushierarchia mutatása külön panelben
+		
+		- ctrl + e					Megnyitott fájlok közti váltás/keresés
+		- ctrl + F6					Megnyitott fájlok közti váltogatás (cycling)
+		- ctrl + PgUp/PgDn			Megnyitott fájlok közti váltogatás (jobbra/balra)
+		
+		- ctrl + ,/.				Következõ/Elõzõ hibás sorra ugrás
+	
+	Kódformázás/szerkesztés:
+		- ctrl + shift + f			Aktív dokumentum formázása
+		- ctrl + d					Kurzor sorának/kijelölt sorok törlése
+		- alt + fel/le				Az adott sor vagy kijelölés fel/le mozgatása
+		- ctrl + alt + fel/le		Kurzor sorának/kijelölt rész másolása (adott kurzor/kijelölés alá/fölé)
+		- shift + alt + a			Kurzor mód kapcsoló: blokk kijelölés/alap kijelölés
+			
+		- ctrl + 2					Quick assign menü
+			- gyors használat pl: 
+				- hívj meg egy olyan metódust, aminek van visszatérési értéke;
+					ctrl + 2; l;
+					legenerált egy a metódus visszatérésiértékének megfelelõ lokális változót
+					
+		 
+Refactoring:
+	- alt + t 	 			Refactor fõmenü
+	- shift + alt + t		Helyzetfüggõ refactoring menü
+								a Refactor fõmenü gyakran használt funkcióinak a részhalmaza
+								package explorerbõl és code nézetbõl különbözõ, odaillõ refactoring menüpontokat mutat
+	
+Kódgenerálás:
+	- alt + s 				Source fõmenü
+	- shift + alt + s		Helyzetfüggõ Source menü
+	
+Az alap windowson megszokott billentyû parancsok itt is mûködnek (teljesség igénye nélkül)
+	- ctrl + s 				Save document
+	- F1 					Help
+	- Alt + F4 				Eclipse bezárása
+	- F5 					Aktív panel frissítése
+	- ctrl + c/v 			Másolás/beillesztés
+	- alt + enter			Properties ablak megjelenítése
